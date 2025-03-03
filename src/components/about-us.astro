@@ -1,0 +1,43 @@
+---
+import { Icon } from "astro-icon/components";
+import ContentSection from "~/components/content-section.astro";
+---
+
+<ContentSection title="About Us" id="about">
+  <Fragment slot="lead">
+    Welcome to <span class="text-primary">Nova Software Solutions</span>, your
+    partner in building efficient, effective, and reliable software tailored to
+    your needs.
+  </Fragment>
+  <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+      <div class="size-16 rounded-full border-2 border-current p-3">
+        <Icon name="mdi:map-marker" class="size-full" />
+      </div>
+      <p class="text-center font-extrabold text-xl">Location</p>
+      <p class="text-center text-offset text-sm">
+        Based in beautiful <span class="text-primary">Cape Town</span>, South Africa.
+      </p>
+    </li>
+    <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+      <div class="size-16 rounded-full border-2 border-current p-3">
+        <Icon name="mdi:lightning-bolt" class="size-full" />
+      </div>
+      <p class="text-center font-extrabold text-xl">Our Mission</p>
+      <p class="text-center text-offset text-sm">
+        Deliver <span class="text-primary">efficient</span>, 
+        <span class="text-primary">effective</span>, and 
+        <span class="text-primary">reliable</span> software solutions at competitive pricing.
+      </p>
+    </li>
+    <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+      <div class="size-16 rounded-full border-2 border-current p-3">
+        <Icon name="mdi:account-group" class="size-full" />
+      </div>
+      <p class="text-center font-extrabold text-xl">Who We Are</p>
+      <p class="text-center text-offset text-sm">
+        A small but passionate <span class="text-primary">startup</span> driven by innovation and client success.
+      </p>
+    </li>
+  </ul>
+</ContentSection>

@@ -1,0 +1,73 @@
+---
+import { Icon } from "astro-icon/components";
+import ContentSection from "~/components/content-section.astro";
+---
+
+<ContentSection title="What We Offer" id="what-we-offer">
+  <Fragment slot="lead">
+    Whether you're a small business or a growing enterprise, Nova Software Solutions 
+    provides <span class="text-primary">tailored services</span> to meet your unique needs.
+  </Fragment>
+  <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+      <div class="size-16 rounded-full border-2 border-current p-3">
+        <Icon name="mdi:web" class="size-full" />
+      </div>
+      <p class="text-center font-extrabold text-xl">Web Development</p>
+      <p class="text-center text-offset text-sm">
+        Modern, fast, and responsive websites built using 
+        <span class="text-primary">cutting-edge technologies</span>.
+      </p>
+    </li>
+    <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+      <div class="size-16 rounded-full border-2 border-current p-3">
+        <Icon name="mdi:cellphone-link" class="size-full" />
+      </div>
+      <p class="text-center font-extrabold text-xl">Mobile Applications</p>
+      <p class="text-center text-offset text-sm">
+        Cross-platform apps that deliver seamless experiences on both 
+        <span class="text-primary">iOS and Android</span>.
+      </p>
+    </li>
+    <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+      <div class="size-16 rounded-full border-2 border-current p-3">
+        <Icon name="mdi:cloud-sync" class="size-full" />
+      </div>
+      <p class="text-center font-extrabold text-xl">Cloud Solutions</p>
+      <p class="text-center text-offset text-sm">
+        Scalable, reliable cloud infrastructure tailored to your 
+        <span class="text-primary">business requirements</span>.
+      </p>
+    </li>
+    <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+      <div class="size-16 rounded-full border-2 border-current p-3">
+        <Icon name="mdi:chart-line" class="size-full" />
+      </div>
+      <p class="text-center font-extrabold text-xl">Data Analytics</p>
+      <p class="text-center text-offset text-sm">
+        Unlock the power of your data with <span class="text-primary">custom dashboards</span> 
+        and actionable insights.
+      </p>
+    </li>
+    <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+      <div class="size-16 rounded-full border-2 border-current p-3">
+        <Icon name="mdi:shield-lock" class="size-full" />
+      </div>
+      <p class="text-center font-extrabold text-xl">Security Consulting</p>
+      <p class="text-center text-offset text-sm">
+        Keep your systems safe with <span class="text-primary">expert security reviews</span> 
+        and vulnerability assessments.
+      </p>
+    </li>
+    <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+      <div class="size-16 rounded-full border-2 border-current p-3">
+        <Icon name="mdi:handshake" class="size-full" />
+      </div>
+      <p class="text-center font-extrabold text-xl">Ongoing Support</p>
+      <p class="text-center text-offset text-sm">
+        Long-term partnerships with <span class="text-primary">reliable maintenance</span> 
+        and dedicated support.
+      </p>
+    </li>
+  </ul>
+</ContentSection>
